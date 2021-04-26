@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
 :root {
   --primary-white: #fff;
   --primary-orange: #ff8038;
@@ -13,11 +12,12 @@ body {
 /*--------------- NAVBAR --------------------*/
 
 .logo {
-  width: 12.25rem;
+  width: 9.25rem;
   margin: -1.25rem;
+  padding-top: 1rem;
 }
 
-/*---------------LinksNavBar------------------------*/
+/*---------------LinksNavBar-----------------*/
 
 nav a.nav_link {
   letter-spacing: 0.0375rem;
@@ -28,7 +28,7 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   color: var(--primary-white) !important;
   margin-right: 1rem;
   margin-left: 1rem;
@@ -41,10 +41,46 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar > li > a:focus {
+.navbar-nav>li>a.active, .navbar>li>a:focus {
   border-top: 0.2rem solid var(--primary-orange);
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav>li>a:hover {
   border-bottom: 0.2rem solid var(--primary-orange);
+}
+
+/*--------------- Home --------------------*/
+
+.home {
+  text-align: -webkit-center;
+  color: var(--primary-white);
+  padding: 1rem 0rem 2.5rem 0rem;
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+.orange {
+  color: var(--primary-orange);
+}
+
+h1 {
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+h2 p {
+  font: 1.89rem sans-serif;
+  margin-bottom: 0.45rem;
+}
+
+h3 {
+  font: 1.29rem sans-serif;
+  margin-top: 3rem;
+  color: var(--primary-orange);
+}
+
+.martins img {
+  width: 16rem;
+  border-radius: 50%;
+  border: 0.16rem solid var(--primary-orange);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
 }
