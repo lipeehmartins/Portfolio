@@ -84,3 +84,79 @@ h3 {
   margin-bottom: 2rem;
   margin-top: 1rem;
 }
+
+
+/*--------------- About --------------------*/
+
+.about {
+  text-align: -webkit-center;
+  color: var(--primary-white);
+  padding: 1rem 0rem 2.5rem 0rem;
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+.about h1 {
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.about h2 p {
+  font: 1.89rem sans-serif;
+  margin-bottom: 0.45rem;
+}
+
+
+/*--------------- Projects --------------------*/
+
+.projects {
+  text-align: -webkit-center;
+  color: var(--primary-white);
+  padding: 1rem 0rem 2.5rem 0rem;
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+.orange {
+  color: var(--primary-orange);
+}
+
+.box {
+  border: 1px solid var(--primary-orange);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.box .twitter-clone {
+  padding-top: 7rem;
+}
+
+.box .links .github {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--primary-white);
+  margin: 1.25rem;
+  padding: 0.625rem 0.9375rem;
+  border-radius: 8%;
+  background-color: var(--primary-orange);
+  font-family: sans-serif;
+}
+
+.box .links .website {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin: 1.25rem;
+  color: var(--primary-white);
+  padding: 0.625rem 0.9375rem;
+  border-radius: 8%;
+  background-color: var(--primary-orange);
+  font-family: sans-serif;
+}
+
+.box img {
+  width: 30rem;
+  float: left;
+}
