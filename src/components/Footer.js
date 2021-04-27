@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import instaicon from "./images/instagram_PNG16.png"
 import faceicon from "./images/baseline_facebook_black_24dp.png"
 import giticon from "./images/icons8-github-48.png"
@@ -6,7 +6,7 @@ import linkedicon from "./images/icons8-linkedin-48.png"
 
 const Footer = () => {
     return (
-        <footer className="contact">
+        <footer className="contact" id="contact">
             <div className="container">
                 <div className="contact-info">
                     <h2>Contact</h2>
@@ -65,7 +65,7 @@ const Footer = () => {
                         <p>Instagram</p>
                     </a>
                 </div>
-                <div className="form">
+                {/*--<div className="form">
                     <h3>Or leave a message here</h3>
                     <form className="contact-form">
                         <input className="name" type="text" placeholder="Full name" required />
@@ -74,7 +74,7 @@ const Footer = () => {
                         <textarea className="message" placeholder="Your Message" required />
                         <button className="btn btn-primary subbutton" type="submit">Submit</button>
                     </form>
-                </div>
+    </div> */}
             </div>
         </footer>
     )

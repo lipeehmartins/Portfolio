@@ -4,7 +4,7 @@ import photo from './images/me.jpg';
 const Home = () => {
     return (
 
-        <div className="home bg-dark">
+        <div className="home bg-dark" id="home">
             <div className="container">
                 <h1><span className="orange">H</span>ome </h1>
                 <div className="martins">
